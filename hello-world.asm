@@ -1,4 +1,5 @@
 %include 'lib.inc'
+
 section .data
     msg         db "Hello World!", LF, NULL
     size        equ $- msg
