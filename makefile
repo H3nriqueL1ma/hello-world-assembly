@@ -1,4 +1,4 @@
-NAME = program
+NAME = hello-world
 
 all: $(NAME).o
 	ld -s -o $(NAME) $(NAME).o
